@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COUNTER </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+
+    <button id="art">+</button>
+    <h1 id="num">0</h1>
+    <button id="eks">-</button>
+    
+
+    <script>
+        const butart = document.querySelector("#art");
+        const buteks = document.querySelector("#eks");
+        const num = document.querySelector("#num");
+
+        let numstart = 0;
+
+        butart.addEventListener('click', () => {
+            numstart++;
+            num.innerHTML = numstart;
+        })
+
+        buteks.addEventListener('click', () => {
+            numstart--;
+            num.innerHTML = numstart;
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+button{
+    border: 0;
+    background-color: #5C5470;
+    color: #FAF0E6;
+    height: 3vh;
+    width: 5vh;
+    border-radius: 1vh;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #B9B4C7;
+    color: #352F44;
+    transition: 0.5s;
+}
+
+h1{
+    color: #352F44;
+}
+
+body{
+    background-color: #FAF0E6;
+}
